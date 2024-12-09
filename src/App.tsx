@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="max-h-screen flex flex-col">
       <PageHeader />
-      <div className="bg-violet-400">2</div>
+      <div>2</div>
     </div>
   );
 }
