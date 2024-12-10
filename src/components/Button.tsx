@@ -1,4 +1,5 @@
 import { cva, VariantProps } from "class-variance-authority";
+import { CircleArrowOutDownLeft } from "lucide-react";
 import { ComponentProps } from "react";
 
 const buttonStyles = cva(["transition-colors"], {
@@ -31,3 +32,10 @@ type ButtonProps = VariantProps<typeof buttonStyles> & ComponentProps<"button">;
 export function Button({ variant, size, ...props }: ButtonProps) {
   return <button {...props} className={buttonStyles({ variant, size })} />;
 }
+
+/**
+ * <button 
+      {...props}
+      className={twMerge(buttonStyles({ variant, size }), className)} 
+    />
+ */
