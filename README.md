@@ -4,7 +4,7 @@ npm i class-variance-authority,
 npm i tailwind-merge
 ]
 
-https://www.youtube.com/watch?v=ymGB1lqP1CM&t=23m
+https://www.youtube.com/watch?v=ymGB1lqP1CM&t=31m19s
 
 # React + TypeScript + Vite
 
