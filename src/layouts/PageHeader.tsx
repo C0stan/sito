@@ -3,6 +3,7 @@ import logo from "../assets/react.svg";
 import { Button } from "../components/Button";
 import { useState } from "react";
 
+// left arrow still need to be fixed
 export function PageHeader() {
   const [showFullWidthSearch, setShowFullWidthSearch] = useState(false);
   return (
@@ -26,9 +27,17 @@ export function PageHeader() {
           showFullWidthSearch ? "flex" : "hidden md:flex"
         }`}
       >
-        <Button type="button" size="icon" className="flex-shrink-0">
-          <ArrowLeft />
-        </Button>
+        {showFullWidthSearch && (
+          <Button
+            onClick={() => setShowFullWidthSearch(false)}
+            type="button"
+            size="icon"
+            variant="ghost"
+            className="flex-shrink-0"
+          >
+            <ArrowLeft />
+          </Button>
+        )}
         <div className="flex flex-grow max-w-[600px]">
           <input
             type="search"
