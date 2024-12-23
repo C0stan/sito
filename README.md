@@ -5,7 +5,7 @@ npm i tailwind-merge
 ]
 
 frontEnd: https://www.youtube.com/watch?v=ymGB1lqP1CM&t=1h10m01s
-backEnd: https://youtu.be/ET39IFffr24?list=PLsyeobzWxl7qbKoSgR5ub6jolI8-ocxCF&t=1m56s
+backEnd: https://youtu.be/ET39IFffr24?list=PLsyeobzWxl7qbKoSgR5ub6jolI8-ocxCF&t=8m10s
 
 # React + TypeScript + Vite
 
