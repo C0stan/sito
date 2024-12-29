@@ -7,7 +7,7 @@ import { CategoryPills } from "./components/CategoryPills";
 import { categories, videos } from "./data/home";
 import { PageHeader } from "./layouts/PageHeader";
 import { VideoGridItem } from "./components/VideoGridItem";
-import { Sidebar } from "lucide-react";
+import { Sidebar } from "./layouts/Sidebar";
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState(categories[0]);
